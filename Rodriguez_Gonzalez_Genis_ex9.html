@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejercicio tablas html</title>
+    <meta charset="utf-9" />
+    <meta name="author" content="francesc ricart" />
+    <style>
+        table {
+
+            border: 1px solid #1c1c1c;
+        }
+
+        tr,
+        td,
+        th {
+            border: 1px solid #1c1c1c;
+            text-align: center;
+        }
+
+        .no-b {
+
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+
+        <tr>
+            <td>A</td>
+            <td>D</td>
+
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>D1</td>
+
+                    </tr>
+                    <tr>
+                        <td>D2</td>
+
+                    </tr>
+                    <tr>
+                        <td>D3</td>
+
+                    </tr>
+                    <tr>
+                        <td>D4</td>
+
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+
+        <tr>
+            <td colspan="2">A</td>
+
+
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>B1</td>
+
+                    </tr>
+                    <tr>
+                        <td>B2</td>
+
+                    </tr>
+                    <tr>
+                        <td>B3</td>
+
+                    </tr>
+
+
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>C1</td>
+                        <td>C2</td>
+                    </tr>
+
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>A1</td>
+                    </tr>
+                    <tr>
+                        <td>A2</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>B1</td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>B1-1</td>
+                                </tr>
+                                <tr>
+                                    <td>B1-2</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+
+            <td>
+                <table class="no-b">
+                    <tr>
+                        <td class="no-b">C1</td>
+                        <td>
+                            <table class="no-b">
+
+                                <tr>
+
+                                    <td>C1-1</td>
+                                </tr>
+                                <tr>
+                                    <td>C1-2</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>D1</td>
+                    </tr>
+                    <tr>
+                        <td>D2</td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>pais</th>
+            <th>datos econ.</th>
+        <tr>
+        <tr>
+            <td>espa&ntilde;a</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>PIB:-0,1&#37;</td>
+                    </tr>
+                    <tr>
+                        <td>Deficit:5&#37;</td>
+                    </tr>
+                    <tr>
+                        <td>Paro 25.4&#37;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>PIB:-0,4&#37;</td>
+                    </tr>
+                    <tr>
+                        <td>Deficit:3&#37;</td>
+                    </tr>
+                    <tr>
+                        <td>Paro 11&#37;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>Espa&ntilde;a</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>I+D:7&#37;</td>
+                        <td>IRS:13&#37;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>ALCA</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>I+D:3&#37;</td>
+                        <td>Felic:38</td>
+                        <td>Resto:42&#37;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>UE</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Espa&ntilde;a</td>
+                        <td>I+D:8&#37;</td>
+                        <td>SS:25&#37;</td>
+                    </tr>
+                    <tr>
+                        <td>UE</td>
+                        <td>I+D:13&#37;</td>
+                        <td>Otros:28&#37;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>A1</td>
+                        <td>A2</td>
+                        <td>A3</td>
+                    <tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>B1</td>
+                    </tr>
+                    <tr>
+                        <td>B2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
