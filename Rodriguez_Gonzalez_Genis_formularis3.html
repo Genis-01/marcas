@@ -1,59 +1,81 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
 
-<head>
-    <meta charset="utf-8">
-    
     <title>formulario de registro - mi web</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <form action="">
-
-        <div>
-            <label for="nombre">nombre:</label>
-            <input type="text" name="nombre" id="nombre" maxlength="50" />
-            
-        </div>
-       <div>
-         <label for="correo">correo electronico</label>
-         <input type="text" name="correo" id="correo" />
         
-       </div>
-       <div>
-            <label for="url">url</label>
-            <input type="text" name="url" id="url" placeholder="escribe la url de tu pagina">
-       </div>
-       
-       <div>
+      <div>
+        <label for="nombre">nombre:</label>
+        <input type="text" name="nombre" id="nombre" maxlength="50" />
+      </div>
+
+      <div>
+        <label for="correo">correo electronico</label>
+        <input type="text" name="correo" id="correo" />
+      </div>
+
+      <div>
+        <label for="url">url</label>
+        <input
+          type="text"
+          name="url"
+          id="url"
+          placeholder="escribe la url de tu pagina"
+        />
+      </div>
+
+      <div>
         <label for="fecha">fecha</label>
-        <input type="date" name="fecha" id="fecha">
-       </div>
+        <input type="date" name="fecha" id="fecha" />
+      </div>
 
-       <div>
+      <div>
         <label for="tiempo">tiempo</label>
-        <input type="time" name="tiempo" id="tiempo">
-       </div>
+        <input type="time" name="tiempo" id="tiempo" />
+      </div>
 
-       <div>
+      <div>
         <label for="fechaH">fecha y hora</label>
-        <input type="date" name="fechaH" id="fechaH">
-        <input type="time" name="fechaH" id="fechaH">
-       </div>
+        <input type="date" name="fechaH" id="fechaH" />
+        <input type="time" name="fechaH" id="fechaH" />
+      </div>
 
+      <div>
+        <label for="mes">mes</label>
+        <input type="month" name="mes" id="mes" />
+      </div>
 
-        
-        
+      <div>
+        <label for="semana">semana</label>
+        <input type="week" name="semana" id="semana" />
+      </div>
 
-        <input type="submit">
-        
+      <div>
+        <label for="numero">numero(min -10, max 10)</label>
+        <input type="number" name="numero" id="numero" min="-10" max="10" />
+      </div>
 
-        
+      <div>
+        <label for="telefono">telefono</label>
+        <input type="tel" name="telefono" id="telefono" />
+      </div>
 
-        
+      <div>
+        <label for="termino">termino de busqueda</label>
+        <input type="search" name="termino" id="termino" />
+      </div>
 
+      <div>
+        <label for="color">color favorito</label>
+        <input type="color" name="color" id="color" />
+      </div>
+
+      <input type="submit" />
     </form>
-
-</body>
-
+  </body>
 </html>
