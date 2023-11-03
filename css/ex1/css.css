@@ -1,3 +1,27 @@
-p,ul{
-    color: #00F;
+p,
+ul {
+  color: #00f;
+  background-color: #cfc;
+  font-family: georgia, cambria, serif;
+  font-size: 16px;
+}
+h1 {
+  color: #f00;
+  font-family: verdana, calibri, serif;
+  font-size: 32px;
+}
+h2 {
+  color: #a00;
+  font-family: verdana, calibri, sans-serif;
+  font-size: 24px;
+}
+span {
+  color: #060;
+}
+strong {
+  font-size: 24px;
+}
+i {
+  color: #fff;
+  background-color: #000;
 }

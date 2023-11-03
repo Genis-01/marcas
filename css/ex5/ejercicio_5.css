@@ -1,0 +1,15 @@
+.vacio{
+    list-style-type: none;
+}
+.circulo{
+    list-style-type: circle;
+}
+.cuadrado{
+    list-style-type: square;
+}
+.NRomanos{
+    list-style-type: lower-roman;
+}
+.LGriegas{
+    list-style-type: lower-greek;
+}
