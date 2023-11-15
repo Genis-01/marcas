@@ -4,6 +4,8 @@ h1{
 h2{
     border: 2px solid #AAA;
 }
-li{
-    border-top: 4px ;
+.datos{
+    border-top: 4px dotted #f00;
+    border-bottom: 4px dotted #f00;
 }
+.contenido
