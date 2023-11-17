@@ -8,4 +8,6 @@ h2{
     border-top: 4px dotted #f00;
     border-bottom: 4px dotted #f00;
 }
-.contenido
+.contenido{
+    border: 2px dashed #0f0;
+}

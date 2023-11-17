@@ -1,0 +1,25 @@
+body{
+    width: 60em;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+.datos{
+    float: left;
+    width: 16rem;
+}
+.desc{
+    float: right;
+    width: 44em;
+}
+ul.lis{
+    padding: 0px;
+}
+li.lis{
+    float: left;
+    width: 30%;
+    list-style: none;
+    margin-right: 3%;
+}
+
