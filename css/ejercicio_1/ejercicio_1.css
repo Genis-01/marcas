@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cajaSuperior1{
+    
+    display: inline-block;
+    width: 33%;
+    background-color: red;
+}
+.cajaSuperior2{
+    display: inline-block;
+    width: 66%;
+    
+    background-color: blue;
+}
+.cajaCentral1{
+    display: inline-block;
+    background-color: green;
+    width: 24%;
+}
+.cajaCentral2{
+    display: inline-block;
+    background-color: blueviolet;
+    width: 50%;
+}
+.cajaCentral3{
+    display: inline-block;
+    background-color: green;
+    width: 24%;
+}
+.copyraight{
+    position: fixed;
+    bottom: 0;
+    background-color: cadetblue;
+    width: 100%;
+}

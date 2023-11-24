@@ -1,0 +1,20 @@
+.enlaces{
+    width: 20%;
+    position: fixed;
+    bottom: 1%;
+    border: 3px solid  #0000ff;
+    background-color: darkkhaki;
+    height: 97%;
+    text-align: center;
+    
+}
+.contenido{
+    margin-left: 21%;
+    width: 78%;
+    border: 3px solid black;
+    
+    background-color: antiquewhite;
+}
+body{
+    margin: 0;
+}

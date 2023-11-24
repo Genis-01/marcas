@@ -1,0 +1,30 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    overflow-x: hidden;
+    width: 200px;
+    background-color: orange;
+}
+.menu ul>ul{
+    display: none;
+}
+ .menu ul>li:hover>ul{
+    display: block;
+}
+
+
+
+.submenu ul ul{
+    display: none;
+}
+ .submenu ul li:hover ul{
+    display: block;
+}
+
+.subsubmenu ul ul{
+    display: none;
+}
+ .subsubmenu ul li:hover ul{
+    display: block;
+}

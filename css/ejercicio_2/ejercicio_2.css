@@ -1,0 +1,36 @@
+
+.enlaces{
+    position: fixed;
+    display: inline-block;
+    background-color: cadetblue;
+    width: 25%;
+}
+.lema{
+    display: inline-block;
+    margin-left: 25%;
+    width: 75%;
+    background-color: green;
+}
+.contenido{
+    width: 50%;
+    display: inline-block;
+    background-color: brown;
+}
+.publicidad{
+    width: 20%;
+    display: inline-block;
+    background-color: burlywood;
+}
+.copyraight{
+    
+    position: fixed;
+    bottom: 0;
+    text-align: right;
+    background-color: cadetblue;
+    margin-left: 50%;
+    width: 50%;
+}
+
+body{
+    margin: 0;
+}
