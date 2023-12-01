@@ -1,23 +1,22 @@
+.titulo{
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+    background-color: rgb(222, 209, 135);
+    display: inline block;
+}
+.main{
+    width: 60%;
+    display: inline block;
+    background-color: rgb(218, 199, 93);
+}
 .enlaces{
     width: 20%;
-    position: fixed;
-    bottom: 1%;
-    border: 3px solid  #0000ff;
-    background-color: darkkhaki;
-    height: 97%;
-    text-align: center;
+    display: inline-block;
+    background-color: rgb(218, 199, 93);
     
 }
-.contenido{
-    margin-left: 21%;
-    width: 78%;
-    border: 3px solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 20px;
-    
-    background-color: antiquewhite;
-}
-body{
-    margin: 0;
-}
+
+
+
+
