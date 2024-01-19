@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<libros>
+    <libro id="quijote">
+        <titulo>El Quijote</titulo>
+        <autor>Cervantes</autor> <!--El atributo nombre no es necesário-->
+        <descripcion>Es el mejor libro de cervantes.</descripcion> <!--"<" sobra en "mejor" -->
+    </libro> <!-- Se tiene que cerrar ">"-->
+</libros> <!-- La l debe ser minúscula-->

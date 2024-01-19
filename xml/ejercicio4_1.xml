@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<documento>
+    <p>Mi Primer <destacar importancia ="1">documento <!-- Las comillas del 1 no están puestas-->
+            XML</destacar></p> <!-- la p estaba mal cerrada-->
+    <p>Comienza con la etiqueta &gt;</p> <!-- "documento" no es necesario-->
+    <p>A continuacion colocamos un elemento sin contenido</p>
+    <imagen fichero="imagen.gif"></imagen> <!--imagen no estaba cerrada-->
+</documento> 
