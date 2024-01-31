@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<operaciones>
+    <venta>
+        <titulos>redy player one</titulos>
+        <cantidadTotal>1</cantidadTotal>
+        <devuelto>no</devuelto>
+        <importe moneda="€">50</importe>
+    </venta>
+    <compra>
+        <titulos>redy player </titulos>
+        <nombreproveedor>pato</nombreproveedor>
+        <fecha>
+            <dia>12</dia>
+            <mes>8</mes>
+            <anyo>2022</anyo>    
+        </fecha>
+
+    </compra>
+</operaciones>

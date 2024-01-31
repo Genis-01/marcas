@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<comando>
+    <tractores>
+        <componentes>
+            <nombrefabricante>rembe</nombrefabricante>
+            <fechaentrega>21-12-218</fechaentrega>
+            <fragil>si</fragil>
+            <peso unidades="kg">5</peso>
+            <nserie>231231</nserie>
+            <maxkm unidades="km">1000</maxkm>
+        </componentes>
+    </tractores>
+</comando>
