@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<hecos_historicos>
+    <heco>
+        <description>IBM da a conocer el PC</description>
+        <fecha>
+            <dis>12</dis>
+            <mes>8</mes>
+            <anyo>1981</anyo>
+        </fecha>
+    </heco>
+    <heco>
+        <description>se funda Google</description>
+        <fecha>
+            <dis>4</dis>
+            <mes>9</mes>
+            <anyo>1998</anyo>
+        </fecha>
+    </heco>
+</hecos_historicos>

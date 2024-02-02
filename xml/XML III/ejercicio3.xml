@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<mezcla_colores>
+    <combinacion>
+        <mezcla>rojo y amarillo</mezcla>
+        <color>naranja</color>
+    </combinacion>
+    <combinacion>
+        <mezcla>negro y blanco</mezcla>
+        <color>gris</color>
+    </combinacion>
+    <combinacion>
+        <mezcla>amarillo, azul y blanco</mezcla>
+        <color>verde claro</color>
+    </combinacion>
+</mezcla_colores>
