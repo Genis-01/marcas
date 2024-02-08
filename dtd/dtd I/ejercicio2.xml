@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaventas SYSTEM "ejercicio2.dtd">
+<listaventas>
+    <venta>
+        <Importe></Importe>
+        <Comprador></Comprador>
+        <Vendedor></Vendedor>
+        <Fecha></Fecha>
+        <Codigofactura></Codigofactura>
+    </venta>
+</listaventas>
