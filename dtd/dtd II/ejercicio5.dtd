@@ -1,0 +1,21 @@
+<!ELEMENT listado (futuro+, divisa+, bono+, letra+)>
+<!ELEMENT futuro (producto, mercado?)>
+<!ATTLIST futuro precio CDATA #REQUIRED>
+<!ELEMENT divisa (nombre, tipoCambio*)>
+<!ATTLIST divisa precio CDATA #REQUIRED>
+<!ATTLIST divisa estable (SI|no) #IMPLIED>
+<!ELEMENT bono (paisDeProcedencia, valorDeseado, valorMinimo, valorMaximo)>
+<!ATTLIST bono precio CDATA #REQUIRED>
+<!ATTLIST bono estable (SI|no) #IMPLIED>
+<!ELEMENT letra (paisEmisor, tipoInteres)>
+<!ATTLIST letra precio CDATA #REQUIRED>
+<!ELEMENT producto (#PCDATA)>
+<!ELEMENT mercado (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipoCambio (#PCDATA)>
+<!ELEMENT paisDeProcedencia (#PCDATA)>
+<!ELEMENT valorDeseado (#PCDATA)>
+<!ELEMENT valorMinimo (#PCDATA)>
+<!ELEMENT valorMaximo (#PCDATA)>
+<!ELEMENT paisEmisor (#PCDATA)>
+<!ELEMENT tipoInteres (#PCDATA)>
