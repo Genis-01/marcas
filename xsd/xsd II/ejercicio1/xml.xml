@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ficha xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd.xsd">
+    <alubno>
+        <nombre>Pedro</nombre>
+        <nota-primer-trimestre>4</nota-primer-trimestre>
+        <nota-segundo-trimestre>6</nota-segundo-trimestre>
+        <nota-tercer-trimestre>8</nota-tercer-trimestre>
+    </alubno>
+    <alubno>
+        <nombre>toni</nombre>
+        <nota-primer-trimestre>8</nota-primer-trimestre>
+        <nota-segundo-trimestre>7</nota-segundo-trimestre>
+        <nota-tercer-trimestre>5</nota-tercer-trimestre>
+    </alubno>
+</ficha>
